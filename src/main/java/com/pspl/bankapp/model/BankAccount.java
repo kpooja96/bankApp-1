@@ -5,9 +5,11 @@ import com.pspl.bankapp.specification.BankSpecification;
 public abstract class BankAccount implements BankSpecification {
 	
 	private int accId;
+	private String accNo;
 	private String accHolderName;
 	private String accType;
 	private double balance;
+private String name;
 	
 	private static int accIdGenerator;
 	private static String bankName;
